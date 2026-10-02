@@ -1,140 +1,141 @@
 /* ==========================================================================
    Campus Events - Web Technology Mini-Project
+   Pratibha College of Commerce and Computer Science
    Main JavaScript File: js/script.js
    ========================================================================== */
 
 // 1. MASTER EVENT DATA ARRAY
 const eventsData = [
   {
-    id: "tech-fest",
-    name: "InnovateX 2026 Tech Fest",
-    category: "Technical",
-    date: "Nov 25, 2026",
-    time: "09:00 AM - 05:00 PM",
-    venue: "Main Auditorium, Campus A",
-    fee: "₹150 / Team",
-    status: "Open",
-    image: "images/tech-fest.svg",
-    description: "Annual inter-college technology festival featuring technical paper presentations, project displays, tech quizzes, and keynote talks from industry experts.",
-    organizer: "Department of Computer & IT",
-    maxParticipants: "200 Participants",
-    deadline: "Nov 20, 2026",
-    eligibility: "Open to all undergraduate engineering students.",
-    rules: [
-      "Team size must be between 1 to 4 members.",
-      "Valid college identity cards are mandatory for entry.",
-      "Decisions of the faculty judges will be final and binding.",
-      "Laptops and project hardware must be registered at the entry security desk."
-    ]
-  },
-  {
-    id: "robotics-workshop",
-    name: "Autonomous Robotics Workshop",
-    category: "Workshop",
-    date: "Nov 28, 2026",
-    time: "10:00 AM - 04:00 PM",
-    venue: "Robotics & Automation Lab, Mech Block",
-    fee: "Free",
-    status: "Open",
-    image: "images/robotics-workshop.svg",
-    description: "Hands-on technical workshop covering Arduino microcontroller basics, sensor integration, motor drivers, and building autonomous line-follower robots from scratch.",
-    organizer: "Department of Mechanical Engineering",
-    maxParticipants: "60 Seats",
-    deadline: "Nov 24, 2026",
-    eligibility: "Open to 2nd, 3rd, and 4th-year engineering students.",
-    rules: [
-      "Hardware starter kits will be provided during the session.",
-      "Laptops with Arduino IDE pre-installed are recommended.",
-      "Individual participation only.",
-      "Certificate of completion will be issued to all attendees."
-    ]
-  },
-  {
-    id: "coding-competition",
-    name: "CodeStorm 2026",
+    id: "hackathon",
+    name: "Hackathon 2026",
     category: "Competition",
-    date: "Dec 02, 2026",
-    time: "11:00 AM - 03:00 PM",
-    venue: "Central Computer Center (Lab 3 & 4)",
-    fee: "Free",
+    date: "Nov 25, 2026",
+    time: "09:00 AM - 09:00 PM (12 Hours)",
+    venue: "Computer Lab 1 & 2, PCCCS Campus",
+    fee: "₹200 / Team",
     status: "Open",
-    image: "images/coding-competition.svg",
-    description: "Competitive programming contest where participants solve algorithmic challenges within a limited time using C++, Java, Python, or JavaScript.",
-    organizer: "Computer Engineering Student Association",
-    maxParticipants: "100 Participants",
-    deadline: "Nov 30, 2026",
-    eligibility: "Open to all college students interested in coding.",
+    image: "images/hackathon.svg",
+    description: "12-hour non-stop software hackathon where student teams design, build, and present innovative web, mobile, or AI solutions to solve real-world problems.",
+    organizer: "Department of Computer Science & IT",
+    maxParticipants: "30 Teams",
+    deadline: "Nov 20, 2026",
+    eligibility: "Open to all BCA, B.Sc (CS), B.Tech, and MCA students of PCCCS and participating colleges.",
     rules: [
-      "Individual participation only.",
-      "No external help, internet browsing, or mobile phones allowed during rounds.",
-      "Standard compiler environments (GCC, Python 3, OpenJDK) will be provided.",
-      "Ties will be broken based on submission speed and code efficiency."
+      "Team size must be between 2 to 4 members.",
+      "All code must be written during the hackathon hours.",
+      "Use of open-source libraries and APIs is allowed with proper attribution.",
+      "Final evaluation will be based on innovation, design, functionality, and pitch."
     ]
   },
   {
-    id: "cad-design",
-    name: "CAD Design Challenge",
-    category: "Technical",
-    date: "Dec 05, 2026",
-    time: "01:00 PM - 04:00 PM",
-    venue: "CAD/CAM Lab, Room 204",
-    fee: "₹50 / Participant",
-    status: "Open",
-    image: "images/cad-design.svg",
-    description: "3D mechanical design competition testing speed, precision, and drafting skills using AutoCAD and SolidWorks software.",
-    organizer: "Society of Mechanical Engineers",
-    maxParticipants: "50 Participants",
-    deadline: "Dec 02, 2026",
-    eligibility: "Mechanical & Civil Engineering students.",
-    rules: [
-      "Participants will be given a physical component drawing to model in 3D.",
-      "Time limit is strictly 2.5 hours.",
-      "Evaluation based on dimensional accuracy and parametric design efficiency.",
-      "Workstation with SolidWorks 2024 will be provided."
-    ]
-  },
-  {
-    id: "photography-contest",
-    name: "Campus Lens Photography Contest",
+    id: "freshers-party",
+    name: "Freshers Party 2026",
     category: "Creative",
-    date: "Dec 10, 2026",
-    time: "09:00 AM - 06:00 PM",
-    venue: "Campus Premises / Online Submission",
+    date: "Nov 28, 2026",
+    time: "04:00 PM - 08:00 PM",
+    venue: "College Auditorium, PCCCS",
     fee: "Free",
     status: "Open",
-    image: "images/photography-contest.svg",
-    description: "Showcase your creative photography skills. Capture the vibrant campus life, architecture, or nature under the theme 'Shadows & Light'.",
-    organizer: "College Cultural & Photography Club",
-    maxParticipants: "150 Submissions",
-    deadline: "Dec 08, 2026",
-    eligibility: "Open to all registered college students.",
+    image: "images/freshers-party.svg",
+    description: "Official welcome celebration for newly admitted first-year students featuring live music, dance performances, Mr. & Ms. Fresher contest, fun games, and refreshments.",
+    organizer: "Student Cultural Committee & PCCCS Senate",
+    maxParticipants: "300 Students",
+    deadline: "Nov 25, 2026",
+    eligibility: "Exclusively for 1st Year & 2nd Year PCCCS students.",
     rules: [
-      "Maximum 2 photograph entries per participant.",
-      "Photos must be original and taken within the campus premises.",
-      "Basic color correction is allowed; extreme digital manipulation is prohibited.",
-      "High-resolution JPEG files must be submitted before deadline."
+      "College identity card is mandatory for entry at the gate.",
+      "Formal or traditional attire recommended.",
+      "Prior registration is required for Mr. & Ms. Fresher contest entry.",
+      "Strict college discipline and decorum must be maintained throughout."
     ]
   },
   {
-    id: "project-exhibition",
-    name: "National Project Exhibition",
+    id: "ai-tech-challenge",
+    name: "AI Tech Challenge",
+    category: "Technical",
+    date: "Dec 02, 2026",
+    time: "10:00 AM - 03:00 PM",
+    venue: "AI & Data Science Research Lab, PCCCS",
+    fee: "₹100 / Participant",
+    status: "Open",
+    image: "images/ai-tech-challenge.svg",
+    description: "Technical challenge testing machine learning, prompt engineering, and artificial intelligence model implementation using Python and modern AI tools.",
+    organizer: "PCCCS Tech & Innovation Club",
+    maxParticipants: "60 Participants",
+    deadline: "Nov 30, 2026",
+    eligibility: "Open to all computer science and engineering undergraduates.",
+    rules: [
+      "Individual or duo participation allowed.",
+      "Dataset and problem statements will be provided on the spot.",
+      "Model accuracy, clean code architecture, and presentation determine winners.",
+      "Python, Scikit-Learn, TensorFlow, or PyTorch can be used."
+    ]
+  },
+  {
+    id: "startup-spark",
+    name: "Startup Spark",
+    category: "Workshop",
+    date: "Dec 05, 2026",
+    time: "11:00 AM - 04:00 PM",
+    venue: "Seminar Hall 2, Commerce Block, PCCCS",
+    fee: "Free",
+    status: "Open",
+    image: "images/startup-spark.svg",
+    description: "Entrepreneurship workshop and business pitch competition. Learn how to turn project ideas into viable startups, craft business models, and pitch to mentors.",
+    organizer: "Entrepreneurship Development Cell (EDC)",
+    maxParticipants: "100 Seats",
+    deadline: "Dec 02, 2026",
+    eligibility: "Open to Commerce, Management, and Computer Science students.",
+    rules: [
+      "Submit individual or team business ideas (max 3 members per team).",
+      "10-minute pitch deck presentation followed by 5-minute Q&A with judges.",
+      "Mentorship opportunities and seed guidance awarded to top 3 pitch ideas.",
+      "Executive summary must be submitted prior to presentation."
+    ]
+  },
+  {
+    id: "quiz-quest",
+    name: "Quiz Quest",
+    category: "Competition",
+    date: "Dec 10, 2026",
+    time: "02:00 PM - 05:00 PM",
+    venue: "Main Hall, PCCCS Campus",
+    fee: "Free",
+    status: "Open",
+    image: "images/quiz-quest.svg",
+    description: "Fast-paced inter-departmental quiz contest covering general tech trivia, computer history, current science affairs, and logical reasoning.",
+    organizer: "PCCCS Academic Quiz Club",
+    maxParticipants: "80 Participants",
+    deadline: "Dec 08, 2026",
+    eligibility: "Open to all enrolled students across all streams at PCCCS.",
+    rules: [
+      "Team size: exactly 2 members per team.",
+      "Preliminary written screening round followed by live buzzer stage round.",
+      "No electronic gadgets or smartwatches permitted during rounds.",
+      "Quiz master's decision is final and binding."
+    ]
+  },
+  {
+    id: "cyber-shield-summit",
+    name: "Cyber Shield Summit",
     category: "Technical",
     date: "Dec 15, 2026",
     time: "09:30 AM - 04:30 PM",
-    venue: "College Sports Complex Hall",
-    fee: "₹200 / Project",
+    venue: "Central Auditorium, PCCCS",
+    fee: "Free",
     status: "Open",
-    image: "images/project-exhibition.svg",
-    description: "State-level platform for final-year engineering students to display working hardware and software prototypes to industry experts and peers.",
-    organizer: "Internal Quality Assurance Cell (IQAC)",
-    maxParticipants: "80 Stalls",
-    deadline: "Dec 08, 2026",
-    eligibility: "Final-year (BE/B.Tech) engineering students.",
+    image: "images/cyber-shield-summit.svg",
+    description: "National cybersecurity workshop and seminar focusing on ethical hacking, network defense, web security vulnerabilities, and safe digital practices.",
+    organizer: "Department of Computer Science & Cyber Cell",
+    maxParticipants: "150 Delegates",
+    deadline: "Dec 12, 2026",
+    eligibility: "Open to all students interested in cybersecurity and network safety.",
     rules: [
-      "A working prototype or live software demonstration is mandatory.",
-      "Poster size must be standard A1 format explaining project scope.",
-      "Maximum 4 members allowed per project team.",
-      "Best 3 projects will receive cash prizes and certificates."
+      "Live demonstrations will be conducted in a controlled lab environment.",
+      "Official certificate of participation will be awarded to all delegates.",
+      "Laptops required for interactive hands-on workshop session.",
+      "Strict adherence to ethical hacking boundaries is mandatory."
     ]
   }
 ];
@@ -433,7 +434,7 @@ function initRegistrationForm() {
     if (!email) {
       setError("email", "Please enter your email address.");
     } else if (!emailRegex.test(email)) {
-      setError("email", "Please enter a valid email address (e.g. student@college.edu).");
+      setError("email", "Please enter a valid email address (e.g. student@pcccs.edu.in).");
     } else {
       clearError("email");
     }
@@ -550,7 +551,7 @@ function renderSuccessPage() {
     <div class="success-header">
       <div class="success-icon">✓</div>
       <h2 class="success-title">Registration Successful!</h2>
-      <p style="color: #64748b; font-size: 0.95rem;">Your registration has been successfully recorded.</p>
+      <p style="color: #64748b; font-size: 0.95rem;">Your event registration for Pratibha College of Commerce and Computer Science has been recorded.</p>
       
       <div class="reg-id-box">
         <span class="reg-id-label">Registration ID</span>
@@ -631,7 +632,7 @@ function initContactForm() {
 
     statusMsg.style.display = "block";
     statusMsg.className = "status-alert info";
-    statusMsg.textContent = "Thank you for your message, " + name + "! This demo form is currently frontend-only.";
+    statusMsg.textContent = "Thank you for your message, " + name + "! Your inquiry has been sent to Pratibha College of Commerce and Computer Science Event Desk (Demo Form).";
 
     form.reset();
   });

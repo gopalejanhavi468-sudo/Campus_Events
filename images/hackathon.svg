@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <rect width="600" height="350" fill="#0f2a4a"/>
+  <!-- Hackathon Code & Trophy Graphics -->
+  <rect x="120" y="50" width="360" height="190" rx="8" fill="#1e293b" stroke="#ea580c" stroke-width="3"/>
+  <rect x="120" y="50" width="360" height="30" rx="8" fill="#0f172a"/>
+  <circle cx="140" cy="65" r="5" fill="#ef4444"/>
+  <circle cx="155" cy="65" r="5" fill="#f59e0b"/>
+  <circle cx="170" cy="65" r="5" fill="#10b981"/>
+  <text x="300" y="70" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">hackathon_2026.js</text>
+  
+  <text x="145" y="115" fill="#ea580c" font-family="monospace" font-size="15" font-weight="bold">// 12-HOUR CODE SPRINT</text>
+  <text x="145" y="145" fill="#38bdf8" font-family="monospace" font-size="14">function buildInnovation() {</text>
+  <text x="170" y="175" fill="#10b981" font-family="monospace" font-size="14">return solveRealWorldProblem();</text>
+  <text x="145" y="205" fill="#38bdf8" font-family="monospace" font-size="14">}</text>
+
+  <text x="300" y="280" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle">Hackathon 2026</text>
+  <rect x="220" y="295" width="160" height="30" rx="4" fill="#ea580c"/>
+  <text x="300" y="315" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="13" text-anchor="middle">COMPETITION</text>
+</svg>
