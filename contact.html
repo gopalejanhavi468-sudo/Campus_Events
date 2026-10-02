@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Events - Contact Desk</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="logo-badge">CE</span>
+        <span class="logo-text">Campus Events</span>
+      </a>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="register.html" class="nav-cta">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    
+    <div class="section-header">
+      <h2>Contact Event Desk</h2>
+      <p>Have questions about event guidelines, registration, or schedule? Get in touch with student coordinators.</p>
+    </div>
+
+    <div class="content-box">
+      <div class="contact-grid">
+        
+        <!-- CONTACT INFO -->
+        <div>
+          <h3 style="color: #0f2a4a; margin-bottom: 20px;">Contact Information</h3>
+
+          <div class="contact-info-item">
+            <h4>📍 Campus Address</h4>
+            <p style="color: #475569; font-size: 0.95rem;">
+              Student Activity Center, Block B<br />
+              Department of Computer Engineering<br />
+              Campus A, University Road
+            </p>
+          </div>
+
+          <div class="contact-info-item">
+            <h4>📧 Email Address</h4>
+            <p style="color: #475569; font-size: 0.95rem;">
+              events@college.edu<br />
+              support.fests@college.edu
+            </p>
+          </div>
+
+          <div class="contact-info-item">
+            <h4>📞 Contact Helpline</h4>
+            <p style="color: #475569; font-size: 0.95rem;">
+              +91 98765 43210 (Student Desk)<br />
+              022-2555-0199 (Office Hours)
+            </p>
+          </div>
+
+          <div class="contact-info-item">
+            <h4>🕒 Office Hours</h4>
+            <p style="color: #475569; font-size: 0.95rem;">
+              Monday – Friday: 09:30 AM to 05:00 PM<br />
+              Saturday: 09:30 AM to 01:00 PM
+            </p>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div>
+          <h3 style="color: #0f2a4a; margin-bottom: 20px;">Send a Message</h3>
+
+          <form id="contactForm">
+            <div class="form-group" style="margin-bottom: 15px;">
+              <label for="contactName" class="form-label">Your Name <span class="required-star">*</span></label>
+              <input type="text" id="contactName" class="form-control" placeholder="Enter your name" required />
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+              <label for="contactEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="Enter your email address" required />
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+              <label for="contactMessage" class="form-label">Message <span class="required-star">*</span></label>
+              <textarea id="contactMessage" class="form-control" rows="5" placeholder="Type your query or question here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Message</button>
+          </form>
+
+          <div id="contactStatusMsg" class="status-alert"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Campus Events Portal</h3>
+          <p style="font-size: 0.9rem; color: #94a3b8; max-width: 320px;">
+            A Web Technology mini-project created to simplify college event discovery and online student registration.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">All Events</a>
+            <a href="register.html">Event Registration</a>
+            <a href="about.html">About Project</a>
+            <a href="contact.html">Contact Desk</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Event Desk</h4>
+          <p style="font-size: 0.9rem; color: #94a3b8;">
+            Student Activity Center<br />
+            Department of Computer Engineering<br />
+            Email: events@college.edu
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Campus Events - Web Technology Mini-Project | Built with HTML, CSS &amp; JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

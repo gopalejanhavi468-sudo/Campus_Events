@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <rect width="600" height="350" fill="#0f172a"/>
+  <!-- Code window mockup -->
+  <rect x="120" y="50" width="360" height="200" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="120" y="50" width="360" height="30" rx="8" fill="#0f172a"/>
+  <circle cx="140" cy="65" r="5" fill="#ef4444"/>
+  <circle cx="155" cy="65" r="5" fill="#f59e0b"/>
+  <circle cx="170" cy="65" r="5" fill="#10b981"/>
+  <text x="300" y="70" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">codestorm2026.cpp</text>
+  
+  <text x="145" y="115" fill="#ea580c" font-family="monospace" font-size="14">#include &lt;iostream&gt;</text>
+  <text x="145" y="140" fill="#38bdf8" font-family="monospace" font-size="14">int main() {</text>
+  <text x="170" y="165" fill="#f1f5f9" font-family="monospace" font-size="14">std::cout &lt;&lt; "CodeStorm!";</text>
+  <text x="170" y="190" fill="#10b981" font-family="monospace" font-size="14">return 0;</text>
+  <text x="145" y="215" fill="#38bdf8" font-family="monospace" font-size="14">}</text>
+
+  <text x="300" y="285" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="22" text-anchor="middle">CodeStorm 2026</text>
+  <rect x="220" y="300" width="160" height="30" rx="4" fill="#ea580c"/>
+  <text x="300" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="13" text-anchor="middle">COMPETITION</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <rect width="600" height="350" fill="#0f172a"/>
+  <circle cx="150" cy="100" r="130" fill="#f97316" opacity="0.12"/>
+  <!-- Robot Graphic -->
+  <rect x="230" y="60" width="140" height="110" rx="16" fill="#1e293b" stroke="#f97316" stroke-width="3"/>
+  <circle cx="270" cy="105" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="330" cy="105" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="270" cy="105" r="5" fill="#38bdf8"/>
+  <circle cx="330" cy="105" r="5" fill="#38bdf8"/>
+  <rect x="270" y="140" width="60" height="10" rx="5" fill="#f97316"/>
+  <!-- Antenna -->
+  <line x1="300" y1="60" x2="300" y2="35" stroke="#f97316" stroke-width="3"/>
+  <circle cx="300" cy="30" r="8" fill="#38bdf8"/>
+  
+  <text x="300" y="215" font-family="Segoe UI, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Robotics Challenge</text>
+  <text x="300" y="240" font-family="Segoe UI, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Line Follower &amp; Obstacle Arena Workshop</text>
+  <rect x="240" y="280" width="120" height="32" rx="16" fill="#f97316"/>
+  <text x="300" y="301" font-family="Segoe UI, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">WORKSHOP</text>
+</svg>

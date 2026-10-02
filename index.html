@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Events - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="logo-badge">CE</span>
+        <span class="logo-text">Campus Events</span>
+      </a>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="nav-cta">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1>Explore College Events, Workshops &amp; Competitions</h1>
+          <p class="hero-subtitle">
+            Find upcoming technical fests, coding challenges, and creative competitions happening around campus. Choose an event and register online in just a few steps.
+          </p>
+          <div class="hero-buttons">
+            <a href="events.html" class="btn btn-primary">Explore Events</a>
+            <a href="register.html" class="btn btn-outline">Register Now</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="images/hero-banner.svg" alt="College Campus Events Banner" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    
+    <!-- UPCOMING EVENTS SECTION -->
+    <section>
+      <div class="section-header">
+        <h2>Upcoming Events</h2>
+        <p>Featured technical and creative activities open for registration.</p>
+      </div>
+
+      <div class="events-grid" id="featuredEventsGrid">
+        <!-- JS populates top 3 event cards here -->
+      </div>
+
+      <div style="text-align: center; margin-bottom: 50px;">
+        <a href="events.html" class="btn btn-secondary">View All College Events &rarr;</a>
+      </div>
+    </section>
+
+    <!-- WHY PARTICIPATE SECTION -->
+    <section class="features-section">
+      <div class="section-header">
+        <h2>Why Participate?</h2>
+        <p>Enhance your academic journey by participating in student-led campus activities.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <h3>Learn New Skills</h3>
+          <p>Gain practical knowledge through hands-on technical workshops and expert sessions.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Participate in Competitions</h3>
+          <p>Test your problem-solving, coding, and design abilities against fellow students.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Meet Other Students</h3>
+          <p>Connect and collaborate with peers across various engineering departments.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Showcase Your Work</h3>
+          <p>Present your final-year projects and technical innovations to faculty judges.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Campus Events Portal</h3>
+          <p style="font-size: 0.9rem; color: #94a3b8; max-width: 320px;">
+            A Web Technology mini-project created to simplify college event discovery and online student registration.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">All Events</a>
+            <a href="register.html">Event Registration</a>
+            <a href="about.html">About Project</a>
+            <a href="contact.html">Contact Desk</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Event Desk</h4>
+          <p style="font-size: 0.9rem; color: #94a3b8;">
+            Student Activity Center<br />
+            Department of Computer Engineering<br />
+            Email: events@college.edu
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Campus Events - Web Technology Mini-Project | Built with HTML, CSS &amp; JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
